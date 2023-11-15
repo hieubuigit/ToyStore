@@ -1,0 +1,63 @@
+body {
+  font-family: "Open Sans", sans-serif;
+}
+header {
+  background-color: #a5c926;
+  color: white;
+  margin: -10px -10px 0;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.top-bar {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contain-contact {
+  display: flex;
+}
+
+ul li {
+  list-style-type: none;
+  color: white;
+}
+
+.phone,
+.email {
+  font-size: 0.8em;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.email a {
+  color: white;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 3px;
+}
+
+ul li {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+ul {
+  margin-top: 5px;
+  margin-bottom: 0;
+}
+
+ul i {
+  color: white;
+}
