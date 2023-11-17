@@ -136,7 +136,84 @@ ul i {
 /*--------- Main ----------*/
 main {
   background-image: url(../../assets/images/vanessa-bucceri-gDiRwIYAMA8-unsplash.jpg);
-  width: 100%;
-  height: 1000px;
+  height: 730px;
   object-fit: cover;
+  background-position: 30% 20%;
+}
+
+.container-say-hello {
+  padding-top: 250px;
+  display: flex;
+  justify-content: center;
+}
+
+.say-hello {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 500px;
+  background-color: white;
+  border: 1px solid white;
+  padding: 50px 60px;
+  border-radius: 20px;
+}
+
+.top-text {
+  font-size: 0.9em;
+  color: #a5c926;
+  font-weight: 600;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.middle-text {
+  font-size: 2.6em;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.btn-open-catalog {
+  text-decoration: none;
+  color: white;
+  padding: 15px 25px;
+  background-color: #a5c926;
+  border-radius: 50px;
+}
+
+.btn-open-catalog:hover
+{
+  animation-name: hover-open-catalog-btn;
+  animation-duration: 300ms;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
+}
+
+.container-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 33vh;
+}
+
+@keyframes hover-open-catalog-btn {
+  0% {
+    transform: scale(1);
+  }
+  25% {
+    transform: scale(1.02);
+    box-shadow: 1px 1px 1px #eefdb9;
+  }
+  50% {
+    transform: scale(1.04);
+    box-shadow: 2px 2px 2px #eefdb9;
+  }
+  75% {
+    transform: scale(1.06);
+    box-shadow: 3px 3px 3px #eefdb9;
+  }
+  100% {
+    transform: scale(1.08);
+    box-shadow: 4px 4px 4px #eefdb9;
+  }
 }
